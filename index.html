@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Tradição em projetos de arquitetura</h1>
+        <p>Arquitetura residencial e comercial. </p>
+    </header>
+    <section id="sobre">
+        <ul>
+            <li>
+                <span>850</span>
+                <p>empreendimentos construídos</p>
+            </li>
+            <li>
+                <span>40</span>
+                <p>anos de mercado e experiência</p>
+            </li>
+            <li>
+                <span>2,000,000 m²</span>
+                <p>em projetos construídos</p>
+            </li>
+        </ul>
+    </section>
+    <section id="info">
+        <div id="texto">
+            <h1>Arquitetos com História e Experiência</h1>
+            <p>
+                Nós realizamos desde 2002 projetos e gerenciamento de obras.<br>
+                Com mais de 800 projetos e 2.000.000 de m² construídos, tendo<br>
+                como principal proposta transformar em realidade os sonhos de<br>
+                seus clientes, criando projetos</p>
+        </div>
+        <div>
+            <img src="assets/imagem1.svg" alt="imagem ilustrativa sobre os projetos da empresa">
+        </div>
+    </section>
+    <form action="https://api.sheetmonkey.io/form/wEHccAh2UrPGvUvjv6Jrov" method="post">
+        <label>Conheça mais sobre nossos serviços:</label>
+        <input type="text" placeholder="Nome" name="nome" required>
+        <input type="email" placeholder="Email" name="e-mail" required>
+        <button onmouseenter="change()" onmouseout="back()" id="faleConosco" type="submit">Fale Conosco</button>
+    </form>
+</body>
+<script src="index.js"></script>
+</html>
