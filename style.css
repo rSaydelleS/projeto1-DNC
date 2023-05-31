@@ -93,7 +93,7 @@ form {
         width: 22rem;
         height: 2rem;
         border-radius: 10px;
-        background-color: #FFFFFF;
+        background-color: #ffffff;
         color: rgba(0, 0, 0, 0.3);
         padding: 10px;
         border: none;
@@ -102,8 +102,12 @@ form {
         padding-top: 10px;
         padding-left: 30px;
     }
+    form input:hover {
+        transform: translateX(6px);
+        transition-duration: 0.5s;
+    }
     form button {
-        background: #C07212;
+        background-color: #C07212;
         margin-top: 5rem;
         color: #ffffff;
         width: 12rem;
